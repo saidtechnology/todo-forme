@@ -1,0 +1,50 @@
+{
+  "name": "todo-forme",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A simple todo app",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidtechnology/todo-forme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saidtechnology/todo-forme/issues"
+  },
+  "@sveltejs/package": {
+    "dir": "src"
+  },
+  "homepage": "https://github.com/saidtechnology/todo-forme",
+  "author": {
+    "name": "Said Ouarrak",
+    "email": "saidx5@gmail.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "deploy": "gh-pages -d dist",
+    "build-deploy": "npm run build && npm run deploy",
+    "build-gh": "vite build --base 'https://saidtechnology.github.io/todo-forme'"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "svelte": "^4.2.11",
+    "vite": "^5.1.4",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {}
+}
