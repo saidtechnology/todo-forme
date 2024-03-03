@@ -9,36 +9,32 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saidtechnology/todo-forme.git"
-    },
+  },
   "bugs": {
     "url": "https://github.com/saidtechnology/todo-forme/issues"
-    },
-    "@sveltejs/package": {
+  },
+  "@sveltejs/package": {
     "dir": "src"
-    },
+  },
   "homepage": "https://github.com/saidtechnology/todo-forme",
   "author": {
     "name": "Said Ouarrak",
     "email": "saidx5@gmail.com"
-    },
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "prettier": "prettier --write .",
-    "format": "npm run prettier && npm run lint",
     "deploy": "gh-pages -d dist",
-    "build-gh": "vite build --public-url 'https://saidtechnology.github.io/todo-forme'",
-    "predeploy": "npm run build-gh"
+    "build-deploy": "npm run build && npm run deploy",
+    "build-gh": "vite build --base 'https://saidtechnology.github.io/todo-forme'"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "svelte": "^4.2.11",
-    "vite": "^5.1.4"
-  
-  },
-  "dependencies": {
+    "vite": "^5.1.4",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
@@ -49,5 +45,6 @@
     "parcel": "^2.7.0",
     "prettier": "^2.7.1",
     "process": "^0.11.10"
-  }
+  },
+  "dependencies": {}
 }
