@@ -2,19 +2,8 @@
     import svelteLogo from "./assets/svelte.svg";
     import viteLogo from "/vite.svg";
     import Counter from "./lib/Counter.svelte";
-    import { FpjsProvider } from "@fingerprintjs/fingerprintjs-pro-svelte";
-    import VisitorData from "./VisitorData.svelte";
 </script>
 
-<FpjsProvider
-    options={{
-        loadOptions: {
-            apiKey: "uO8p9fQoPA46uZ4ZyuhK",
-        },
-    }}
->
-    <VisitorData />
-</FpjsProvider>
 <main>
     <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
