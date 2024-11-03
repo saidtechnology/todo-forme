@@ -34,7 +34,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "svelte": "^4.2.11",
-    "vite": "^5.1.4",
+    "vite": "^5.1.7",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
